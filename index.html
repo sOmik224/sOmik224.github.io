@@ -22,14 +22,15 @@
 
 </form>
     <button onlick="getBMI()" class="btn btn-primary">Submit</button>button>
-    <n1 id="out"></n1/h1>
+    <n1 id="out"></h1>
 <script>
   function getBMI()
   { 
    const weight  = parseInt(document.getElementByLd("InputWeigt").value)
    const height  = parseInt(document.getElementByLd("InputHeigt").value)/100
    const res = weight/(height*height)
-   document.getElementById("out").innerHTML = Math.round(res)
+   document.getElementById("out").innerHTML = Math.round(res, 2)
+                                                      
   } 
 </script>
 
