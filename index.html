@@ -27,7 +27,7 @@
   function getBMI()
   { 
    const weight  = parseInt(document.getElementByLd("InputWeigt").value)
-   const Height  = parseInt(document.getElementByLd("InputHeigt").value)/100
+   const height  = parseInt(document.getElementByLd("InputHeigt").value)/100
    const res = weight/(height*height)
    document.getElementById("out").innerHTML = res
   } 
